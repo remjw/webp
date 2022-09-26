@@ -6,6 +6,27 @@
 
 text chapter 4
 
+## An Analogy
+
+From the design perspective, with the support of CSS technology, Web pages is analogous to people in terms of dressing style.
+
+> People & their styles
+
+-   A person normally has several cloths.
+-   People have diverse styles.
+-   Even with the same person, his/her style mostly varies with a lot of internal and external factors-culture, age, job, emotion, location, experience and to name a few.
+
+> Web Pages & their Look-and-Feel
+
+-   A static Web page is analogous to a person.
+-   The content is organized in a page by HTML script. A page can have multiple appearances by style rules.
+-   The style rules are declared in CSS language.
+-   The same Web content can be decorated and styled differently in accordance with its target audience and purpose.
+
+> Therefore, Web designers often create more than one style for the same HTML page, and implement them in CSS scripts.
+
+
+
 ## Cascading Style Sheet
 
 **CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.**
@@ -78,24 +99,6 @@ Three types of location:
 
 :::
 
-## An Analogy
-
-From the design perspective, with the support of CSS technology, Web pages is analogous to people in terms of dressing style.
-
-> People & their styles
-
--   A person normally has several cloths.
--   People have diverse styles.
--   Even with the same person, his/her style mostly varies with a lot of internal and external factors-culture, age, job, emotion, location, experience and to name a few.
-
-> Web Pages & their Look-and-Feel
-
--   A static Web page is analogous to a person.
--   The content is organized in a page by HTML script. A page can have multiple appearances by style rules.
--   The style rules are declared in CSS language.
--   The same Web content can be decorated and styled differently in accordance with its target audience and purpose.
-
-> Therefore, Web designers often create more than one style for the same HTML page, and implement them in CSS scripts.
 
 ## An Example
 
@@ -103,7 +106,8 @@ CSS Zen Garden (ZEN: Chán 禪)
 
 ::: panel-tabset
 
-## Page
+## CSS Zen Home
+
 ```{r echo=FALSE}
 knitr::include_url("http://www.csszengarden.com/")
 ```
@@ -111,13 +115,36 @@ knitr::include_url("http://www.csszengarden.com/")
 ## HTML
 
 ```{html file='A348/CSS/CSS_zen/color_block/index.html'}
-
+#| code-fold: true
+#| code-summary: "Show the HTML"
 ```
 
-## CSS-1
+## MID CENTURY MODERN 
+
+```{r echo=FALSE}
+knitr::include_url("http://www.csszengarden.com/221")
+```
+
+## STEEL 
+
+```{r echo=FALSE}
+knitr::include_url("http://www.csszengarden.com/219")
+```
+
+## ROBOT 
+
+```{r echo=FALSE}
+knitr::include_url("http://www.csszengarden.com/215")
+```
+
+
+## CSS-MIDCENTURY
 
 ```{html file='A348/CSS/CSS_zen/color_block/style.css'}
-
+#| code-fold: true
+#| code-summary: "Show the CSS of Mid-century Modern"
 ```
 
 :::
+
+

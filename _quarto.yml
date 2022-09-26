@@ -27,8 +27,8 @@ format:
     number-sections: true
     toc: true
     toc-depth: 4
-    code-fold: false # true
-    code-summary: "Show the code"
+    code-fold: show # true
+    code-summary: "SHOW the CODE"
     code-line-numbers: true
     code-copy: hover
     code-block-bg: "#708090"
