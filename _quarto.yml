@@ -22,18 +22,20 @@ metadata-files:
 format:
   html:
     theme: cosmo
-    css: style_bs4.css
+    #css: style_bs4.css
     cover-image: cover.png
     number-sections: true
     toc: true
     toc-depth: 4
-    code-fold: show # true
-    code-summary: "SHOW the CODE"
+    code-fold: show #true
+    code-summary: "TOGGLE the Code"
+    code-overflow: scroll
     code-line-numbers: true
-    code-copy: hover
-    code-block-bg: "#708090"
+    code-copy: true #hover
+    code-block-bg: "#383838"  #"#708090"
     code-block-border-left: "#31BAE9"
-    highlight-style: ayu-dark
+    highlight-style: ayu-dark #atom-one-dark #ayu-dark
+    
 #  pdf:
 #    documentclass: scrreprt
 #    toc: true

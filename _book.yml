@@ -12,23 +12,6 @@ book:
 #    - sklearn-knn.qmd
     - references.qmd
 
-
-
-format:
-  html:
-    theme: cosmo
-    css: style_bs4.css
-    cover-image: cover.png
-    number-sections: true
-    toc: true
-    toc-depth: 4
-    code-fold: false # true
-    code-summary: "Show the code"
-    code-line-numbers: true
-    code-copy: hover
-    code-block-bg: "#708090"
-    code-block-border-left: "#31BAE9"
-    highlight-style: ayu-dark
 #  pdf:
 #    documentclass: scrreprt
 #    toc: true

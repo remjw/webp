@@ -35,7 +35,9 @@ A Web designer must master CSS technology and has an ability of reading, applyin
 -   Associate/link an `external CSS` script with an HTML page using `<link>` tag within the head element:
 
 ```{html eval=F}
+<head>
 <link rel = "stylesheet" href = "{path.to.css.file}"></link>
+</head>
 ```
 
 -   Debug CSS and tune style sheets for its associated HTML (using VS Code)

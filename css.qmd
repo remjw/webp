@@ -4,7 +4,9 @@
 
 # Introduction
 
-text chapter 4
+## Text
+
+Text Chapter 4
 
 ## An Analogy
 
@@ -32,11 +34,11 @@ From the design perspective, with the support of CSS technology, Web pages is an
 **CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.**
 
 ::: panel-tabset
-## Definition
+### Definition
 
 (Wikipedia) Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML).
 
-## History
+### History
 
 CSS was initially released in 1996 as a standard by the W3C (*World Wide Web Consortium*). The latest version is **CSS4**.
 
@@ -44,9 +46,10 @@ CSS was initially released in 1996 as a standard by the W3C (*World Wide Web Con
 
 A relevant language: [SCSS (Syntactically Awesome Style Sheets)](https://sass-lang.com/): A scripting language compiled into CSS.
 
-## What is CSS style rule?
+### What is CSS style rule?
 
 ```{css eval=F}
+
 /* Declare/define a selector `body`
 type: element
 rule: two properties; each has a value.
@@ -81,20 +84,18 @@ import sys
 print(sys.path)
 ```
 
-## Why using CSS?
+### Why using CSS?
 
 1.  **Separate content from appearance**
 
 2.  Enable Code reuse, maintainability, variety, diversity
 
-## Where is CSS?
+### Where is CSS?
 
 Three types of location:
 
 -   internal css: embedded `STYLE element tag` inside HEAD element
-
 -   internal css: inline `style attribute` with html elements
-
 -   external css: `LINK element` links HTML to external css scripts
 
 :::
@@ -106,39 +107,39 @@ CSS Zen Garden (ZEN: Chán 禪)
 
 ::: panel-tabset
 
-## CSS Zen Home
+### CSS Zen Home
 
 ```{r echo=FALSE}
 knitr::include_url("http://www.csszengarden.com/")
 ```
 
-## HTML
+### HTML
 
 ```{html file='A348/CSS/CSS_zen/color_block/index.html'}
 #| code-fold: true
 #| code-summary: "Show the HTML"
 ```
 
-## MID CENTURY MODERN 
+### MID CENTURY MODERN 
 
 ```{r echo=FALSE}
 knitr::include_url("http://www.csszengarden.com/221")
 ```
 
-## STEEL 
+### STEEL 
 
 ```{r echo=FALSE}
 knitr::include_url("http://www.csszengarden.com/219")
 ```
 
-## ROBOT 
+### ROBOT 
 
 ```{r echo=FALSE}
 knitr::include_url("http://www.csszengarden.com/215")
 ```
 
 
-## CSS-MIDCENTURY
+### CSS-MIDCENTURY
 
 ```{html file='A348/CSS/CSS_zen/color_block/style.css'}
 #| code-fold: true
