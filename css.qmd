@@ -99,6 +99,25 @@ From the design perspective, with the support of CSS technology, Web pages is an
 
 ## An Example
 
-CSS Zen Garden (http://www.csszengarden.com/)
+CSS Zen Garden (ZEN: Chán 禪)
 
-ZEN: Chán 禪
+::: panel-tabset
+
+## Page
+```{r echo=FALSE}
+knitr::include_url("http://www.csszengarden.com/")
+```
+
+## HTML
+
+```{html file='A348/CSS/CSS_zen/color_block/index.html'}
+
+```
+
+## CSS-1
+
+```{html file='A348/CSS/CSS_zen/color_block/style.css'}
+
+```
+
+:::
