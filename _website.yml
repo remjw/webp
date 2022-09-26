@@ -1,0 +1,19 @@
+website:
+  title: "Web Programming Notes"
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Preface"
+        contents: 
+          - index.qmd
+      - section: "CSS Basics"
+        contents:
+          - css.qmd
+          - css_1.qmd
+          - css_2.qmd
+      - section: "Reference"
+        contents:
+          - references.qmd 
+
+          

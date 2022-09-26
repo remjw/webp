@@ -1,0 +1,18 @@
+<!--source .venv/bin/activate-->
+MaLa about HTML, CSS & JavaScript
+
+# Quick Access
+
+## Lookup Tables & References {.unnumbered}
+
+[HTML Color Picker](https://htmlcolorcodes.com/color-picker/)
+
+[HTML Element Tags Reference](https://www.w3schools.com/tags/default.asp)
+
+[CSS Properties Reference](https://www.w3schools.com/cssref/)
+
+[The CSS Selector syntax](https://en.wikipedia.org/wiki/CSS)
+
+[Special Entity Characters Lookup Table](https://html.spec.whatwg.org/multipage/named-characters.html)
+
+
