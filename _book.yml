@@ -1,21 +1,16 @@
-project:
-  title: "Web Programming Notes"
-  type: website
-  output-dir: _site
-
-toc: true
-number-sections: true
-editor: visual
-#bibliography: references.bib
-
-metadata-files: 
-  - _website.yml
-  - _book.yml
-  
-#profile:
-#  default: website
-#  group:
-#    - [website, book]
+book:
+  title: "&#x2694;&#xFE0F; HC"
+  author: "Jie Wang"
+  date: "9/22/2022"
+  cover-image: cover.png
+  chapters:
+    - index.qmd
+    - part: css.qmd
+      chapters:
+        - css_1.qmd
+        - css_2.qmd
+#    - sklearn-knn.qmd
+    - references.qmd
 
 
 

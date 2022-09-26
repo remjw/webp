@@ -2,3 +2,14 @@
 .Rhistory
 .RData
 .Ruserdata
+_site/
+chunk_setup_db_module.py
+chunk_setup.R
+chunk_algorithmengine.R
+_intro.qmd
+_environment.local
+_environment.required
+_quarto-website.yml
+_quarto-book.yml
+/.quarto/
+.setup_chunks.qmd
