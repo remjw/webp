@@ -32,6 +32,7 @@ format:
     code-overflow: scroll
     code-line-numbers: true
     code-copy: true #hover
+    #code-block-bg: true
     code-block-bg: "#383838"  #"#708090"
     code-block-border-left: "#31BAE9"
     highlight-style: ayu-dark #atom-one-dark #ayu-dark

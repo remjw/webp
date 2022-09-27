@@ -28,7 +28,6 @@ CLASS and ID names in CSS are case-sensitive.
 
 A Web designer must master CSS technology and has an ability of reading, applying, creating and updating CSS for Web pages.
 
-
 -   Embed a style block inside the `<head>` element using `<style>` tag
 -   Add (ad-hoc) `inline style` within an element using `style attribute`
 -   Read and write CSS rules
@@ -36,18 +35,13 @@ A Web designer must master CSS technology and has an ability of reading, applyin
 -   Know a web browser runs a selector as a string pattern to find all the matching HTML elements on a Page and apply the rules to the elements.
 -   Associate/link an `external CSS` script with an HTML page using `<link>` tag within the head element:
 
-```{html eval=F}
+```{html filename="link_to_external_css"}
 <head>
-<link rel = "stylesheet" href = "{path.to.css.file}"></link>
+<link rel="stylesheet" href="{path.to.css.file}">
+</link>
 </head>
 ```
 
 -   Debug CSS and tune style sheets for its associated HTML (using VS Code)
 
 -   Look up resources including color code, element tags, css property names, css selector syntax, HTML code for special symbols and entities.
-
-
-
-
-
-

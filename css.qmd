@@ -49,7 +49,6 @@ A relevant language: [SCSS (Syntactically Awesome Style Sheets)](https://sass-la
 ### What is CSS style rule?
 
 ```{css eval=F}
-
 /* Declare/define a selector `body`
 type: element
 rule: two properties; each has a value.
@@ -109,41 +108,37 @@ CSS Zen Garden (ZEN: Chán 禪)
 
 ### CSS Zen Home
 
-```{r echo=FALSE}
-knitr::include_url("http://www.csszengarden.com/")
-```
+http://www.csszengarden.com/
+
 
 ### HTML
 
-```{html file='A348/CSS/CSS_zen/color_block/index.html'}
+```{html file='A348/CSS/CSS_zen/color_block/index.html', filename="zengarden_index.html"}
 #| code-fold: true
-#| code-summary: "Show the HTML"
+#| code-summary: "Zen Gardent INDEX.HTML"
 ```
 
 ### MID CENTURY MODERN 
 
-```{r echo=FALSE}
-knitr::include_url("http://www.csszengarden.com/221")
-```
+http://www.csszengarden.com/221
+
 
 ### STEEL 
 
-```{r echo=FALSE}
-knitr::include_url("http://www.csszengarden.com/219")
-```
+http://www.csszengarden.com/219
+
 
 ### ROBOT 
 
-```{r echo=FALSE}
-knitr::include_url("http://www.csszengarden.com/215")
-```
+http://www.csszengarden.com/215
+
 
 
 ### CSS-MIDCENTURY
 
-```{html file='A348/CSS/CSS_zen/color_block/style.css'}
+```{html file='A348/CSS/CSS_zen/color_block/style.css', eval=F}
 #| code-fold: true
-#| code-summary: "Show the CSS of Mid-century Modern"
+#| code-summary: "CSS of Mid-century Modern"
 ```
 
 :::

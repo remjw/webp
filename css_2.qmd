@@ -23,14 +23,12 @@ By walking through an example of one html and one css, do the following:
 -   Know how to `comment out` (*disable a section of source code by converting it into a comment*) html and css code
 
 -   Per the **CSS rules of precedence**:
-
-    -   A css rule with `!important` always takes precedence.
-
-    -   For the same css property:
-
+    - A css rule with `!important` always takes precedence.
+    - For the same css property:
+    
         > !important \> inline \> embedded \> external style
 
-    -   For the same property having more than one declaration in the same external style sheets, `the latest one overrides the earlier ones`.
+    - For the same property having more than one declaration in the same external style sheets, `the latest one overrides the earlier ones`.
 
 -   Know the execution order of interpreting HTML and CSS: `A web browser interprets both HTML and CSS sequentially from top to bottom`.
 
@@ -66,5 +64,6 @@ b.  Create an external style sheet (**format2.css**) to format as follows: docum
 c.  Create a web page about your favorite movie that displays the movie name in an `<h1>` tag, a description of the movie in a paragraph, and an un ordered (bulleted) list of the main actors and actresses in the movie. The page should also include a hyperlink to a web site about the movie and an e-mail link to your self. This page should be associated with the **format1.css** file. Save the page as **moviecss1.html**. Be sure to test your page in more than one browser.
 
 d.  Modify the **moviecss1.html** page to be associated with `format2.css` external style sheet instead of format1.css Save the page as **moviecss2.html** and test it in a browser. Notice how different the page looks!
+
 
 
