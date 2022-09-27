@@ -24,7 +24,7 @@ format:
     theme: cosmo
     #css: style_bs4.css
     cover-image: cover.png
-    number-sections: true
+    number-sections: false
     toc: true
     toc-depth: 4
     code-fold: show #true

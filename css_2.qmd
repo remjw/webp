@@ -8,7 +8,7 @@
 
 By walking through an example of one html and one css, do the following:
 
--   Go over the questions from the Chapter test
+-   _Go over the questions from the Chapter test_
 
 -   Create a subfolder in the class folder.
 
@@ -36,6 +36,23 @@ By walking through an example of one html and one css, do the following:
 
 -   Thus, *if an element matches more than one style rules in external css file, and the same CSS property has been declared more than once, the last declaration of the property will take effect in the end*.
 
+- Look up resources including color code, element tags, css property names, css selector syntax, HTML code for special symbols and entities.
+
+[HTML Color Picker](https://htmlcolorcodes.com/color-picker/)
+
+[HTML Element Tags Reference](https://www.w3schools.com/tags/default.asp)
+
+[CSS Properties Reference](https://www.w3schools.com/cssref/)
+
+[The CSS Selector syntax](https://en.wikipedia.org/wiki/CSS)
+
+[Special Entity Characters Lookup Table](https://html.spec.whatwg.org/multipage/named-characters.html)
+
+
+
+
+
+
 ## Book Exercise
 
 Practice with External Style Sheets.
@@ -50,4 +67,4 @@ c.  Create a web page about your favorite movie that displays the movie name in 
 
 d.  Modify the **moviecss1.html** page to be associated with `format2.css` external style sheet instead of format1.css Save the page as **moviecss2.html** and test it in a browser. Notice how different the page looks!
 
-## Yoga-2
+

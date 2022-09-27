@@ -12,6 +12,7 @@ website:
           - css.qmd
           - css_1.qmd
           - css_2.qmd
+          - yoga_2.qmd
       - section: "Reference"
         contents:
           - references.qmd 

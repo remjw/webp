@@ -2,6 +2,8 @@
 1 + 1
 ```
 
+# Concepts & Objectives
+
 ## Concepts
 
 How CSS Works with HTML together?
@@ -43,4 +45,9 @@ A Web designer must master CSS technology and has an ability of reading, applyin
 -   Debug CSS and tune style sheets for its associated HTML (using VS Code)
 
 -   Look up resources including color code, element tags, css property names, css selector syntax, HTML code for special symbols and entities.
+
+
+
+
+
 
