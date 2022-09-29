@@ -3,6 +3,7 @@
 .RData
 .Ruserdata
 A348/
+file/
 _site/
 chunk_setup_db_module.py
 chunk_setup.R
@@ -14,3 +15,4 @@ _quarto-website.yml
 _quarto-book.yml
 /.quarto/
 .setup_chunks.qmd
+.DS_Store

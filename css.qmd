@@ -1,12 +1,22 @@
 ```{r include=F}
 1 + 1
 ```
+---
+title: "Introduction"
+---
 
-# Introduction
+
+```{r, eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" src="https://www.youtube.com/embed/sPmrATV79vc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+)
+```
 
 ## Text
 
 Text Chapter 4
+
+
 
 ## An Analogy
 
@@ -30,6 +40,12 @@ From the design perspective, with the support of CSS technology, Web pages is an
 
 
 ## Cascading Style Sheet
+
+```{r, eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" src="https://www.youtube.com/embed/-ped8AKIvAI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+)
+```
 
 **CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.**
 
@@ -83,6 +99,7 @@ import sys
 print(sys.path)
 ```
 
+
 ### Why using CSS?
 
 1.  **Separate content from appearance**
@@ -93,9 +110,11 @@ print(sys.path)
 
 Three types of location:
 
--   internal css: embedded `STYLE element tag` inside HEAD element
--   internal css: inline `style attribute` with html elements
--   external css: `LINK element` links HTML to external css scripts
+- Internal css: embedded `STYLE element tag` inside HEAD element
+- Internal css: inline `style attribute` with html elements
+- External css: `LINK element` links HTML to external css scripts
+- Imported css: In external css script, use `@import directive` to import other external css scripts.
+
 
 :::
 

@@ -1,8 +1,9 @@
 ```{r include=F}
 1 + 1
 ```
-
-# Concepts & Objectives
+---
+title: "Concepts & Objectives"
+---
 
 ## Concepts
 
@@ -19,10 +20,30 @@ CSS associates HTML `elements` with `style rules` using `selector`.
 Some types of identifiers used in *naming a selector*:
 
 -   HTML `element TAG`
--   `CLASS` attribute: can be applied to more than one html elements
--   `ID` attribute: should only be applied to one element
+-   `CLASS` attribute can be applied to more than one html elements.
+-   `ID` attribute should only be applied to one element.
 
-CLASS and ID names in CSS are case-sensitive.
+
+## Naming Convention
+
+For maximum compatibility, you must comply with the following naming rules:
+
+- Always begin a selector name with a letter. 
+- Do not use any blank spaces.
+- Use letters, numbers, dash and underscore. 
+
+## Case-sensitivity
+
+**CLASS and ID selectors in CSS are case-sensitive.**
+
+## CSS Syntax Validator
+
+Use the following W3C's CSS validator _https://jigsaw.w3.org/css-validator/_ to help you identify syntax errors.
+
+```{r echo=FALSE, include=F, eval=F}
+knitr::include_url("https://jigsaw.w3.org/css-validator/")
+```
+
 
 ## Objectives
 

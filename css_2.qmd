@@ -1,10 +1,17 @@
 ```{r include=F}
 1 + 1
 ```
-
-# Hands-on
+---
+title: "Hands-on"
+---
 
 ## Walkthrough
+
+```{r, eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" src="https://www.youtube.com/embed/SLT2ekthvec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+)
+```
 
 By walking through an example of one html and one css, do the following:
 
@@ -53,6 +60,12 @@ By walking through an example of one html and one css, do the following:
 
 ## Book Exercise
 
+```{r, eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" src="https://www.youtube.com/embed/wLcQLDHufok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+)
+```
+
 Practice with External Style Sheets.
 
 In this exercise, you will create two external style sheet files and a web page. You will experiment with linking the web page to the external style sheets and note how the display of the page is changed.
@@ -64,6 +77,15 @@ b.  Create an external style sheet (**format2.css**) to format as follows: docum
 c.  Create a web page about your favorite movie that displays the movie name in an `<h1>` tag, a description of the movie in a paragraph, and an un ordered (bulleted) list of the main actors and actresses in the movie. The page should also include a hyperlink to a web site about the movie and an e-mail link to your self. This page should be associated with the **format1.css** file. Save the page as **moviecss1.html**. Be sure to test your page in more than one browser.
 
 d.  Modify the **moviecss1.html** page to be associated with `format2.css` external style sheet instead of format1.css Save the page as **moviecss2.html** and test it in a browser. Notice how different the page looks!
+
+
+### Extra practice
+
+e. Add the following new selectors to **format1.css**:
+
+   1. An ID selector
+   2. A class selector
+   3. A descendant selector
 
 
 

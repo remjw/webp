@@ -1,5 +1,10 @@
 website:
   title: "Web Programming Notes"
+  page-footer:
+    center: 
+      - text: "Created By Jie Wang 2022"
+        #href: about.qmd
+      - text: "."
   sidebar:
     style: "docked"
     search: true
