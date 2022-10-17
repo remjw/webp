@@ -1,6 +1,7 @@
 ```{r include=F}
 1 + 1
 ```
+
 ---
 title: "Concepts & Objectives"
 ---
@@ -23,14 +24,13 @@ Some types of identifiers used in *naming a selector*:
 -   `CLASS` attribute can be applied to more than one html elements.
 -   `ID` attribute should only be applied to one element.
 
-
 ## Naming Convention
 
 For maximum compatibility, you must comply with the following naming rules:
 
-- Always begin a selector name with a letter. 
-- Do not use any blank spaces.
-- Use letters, numbers, dash and underscore. 
+-   Always begin a selector name with a letter.
+-   Do not use any blank spaces.
+-   Use letters, numbers, dash and underscore.
 
 ## Case-sensitivity
 
@@ -38,12 +38,11 @@ For maximum compatibility, you must comply with the following naming rules:
 
 ## CSS Syntax Validator
 
-Use the following W3C's CSS validator _https://jigsaw.w3.org/css-validator/_ to help you identify syntax errors.
+Use the following W3C's CSS validator *https://jigsaw.w3.org/css-validator/* to help you identify syntax errors.
 
 ```{r echo=FALSE, include=F, eval=F}
 knitr::include_url("https://jigsaw.w3.org/css-validator/")
 ```
-
 
 ## Objectives
 

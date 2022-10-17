@@ -1,0 +1,14 @@
+```{r include=F}
+1 + 1
+```
+
+---
+title: Handson Text Styling
+---
+
+## Handson Practice 
+
+::: callout-note
+Text Page 
+:::
+

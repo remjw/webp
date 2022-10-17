@@ -18,6 +18,12 @@ website:
           - css_1.qmd
           - css_2.qmd
           - yoga_2.qmd
+      - section: "Graphics Styling"
+        contents: 
+          - handson_css_graphics.qmd
+      - section: "Text Styling"
+        contents:
+          - handson_css_text.qmd
       - section: "Reference"
         contents:
           - references.qmd 

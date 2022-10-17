@@ -33,7 +33,7 @@ Follow the instructions on pages 265-.
 
 1.  Create a style sheet script: **yoga.css**
 2.  Link the script to both existing pages: index.html and classes.html
-3.  Upload (Yoga-2) Chapter 4 folder to your remote account
+3.  Upload (Yoga-2) Chapter 4 folder to your remote Web account
 
 
 **Relevant Text Pages**
