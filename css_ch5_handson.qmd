@@ -1,0 +1,23 @@
+---
+title: Hands-on kayakch5
+---
+
+## Hands-on Practice 5.1-5.10
+
+
+Hands-on 5.1 - 5.10
+
+**Only the first two are copied below. Refer to the text for the rest ones.**
+
+::: {.callout-note appearance="simple"}
+#### Text Page 276 Handson 5.1
+
+In this Hands-On Practice, you will place a logo and a photo graph on a web page. *Create a new folder called kayakch5*. The images used in this Hands-On Practice are located in the **student files** `chapter5/starters folder`. Copy the `kayakdc.gif` and `hero.jpg` files into your kayakch5 folder. A starter version of the Home page is ready for you in the student files. Copy the chapter5/starter.html file into your kayakch5 folder. When you complete this Hands-On Practice, your page will look similar to the one shown in Figure 5.6 ---with two images. Launch VS Code and open the file.
+:::
+
+::: {.callout-note appearance="simple"}
+#### Text Page 279 Handson 5.2
+
+You will add image links to the Home page in this Hands-On Practice. You should already have the index.html, kayakdc.gif, and hero.jpg files in your kayakch5 folder. The new graphics used in this Hands-On Practice are located in the student files in the chapter5/starters folder. Copy the home.gif, tours.gif, reservations.gif, and contact.gif files into your kayakch5 folder. View Figure 5.7 to see how your page should look after you are done with this Hands-On Practice.
+:::
+

@@ -1,0 +1,130 @@
+```{r include=F}
+1 + 1
+```
+
+---
+title: CSS Graphics Styling
+---
+
+## Reading Text
+
+::: callout-tip
+### Text Pages 270-294 Graphics Styling
+
+```{r out.height = "460px", out.width='600px', echo=F}
+knitr::include_graphics("file/text_ch5-css-graphics.pdf")
+```
+:::
+
+
+## Image Hyperlinks & Text Position
+
+::: panel-tabset
+### WebView
+
+```{r, eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@Jager2021/css-image-hyperlink?embed=true"></iframe>'
+)
+```
+
+### HTML
+
+```{html eval=F}
+<a href="https://youriuname.pages.iu.edu">
+  <img src="coffee-jie-wang.jpg" 
+alt="Start your day with a cup of latte!"></a>
+```
+:::
+
+
+## CSS Background Properties
+
+Study all the examples on the following w3 page via the given link.
+
+::: callout-important
+#### Try-it-Yourself CSS Background Styling Properties
+
+https://www.w3schools.com/css/css3_backgrounds.asp
+:::
+
+
+## An Example of Using Background Properties
+
+::: panel-tabset
+### WebVeiw
+
+```{r, eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@Jager2021/css-background-styling?embed=true"></iframe>'
+)
+```
+
+### HTML
+
+```{html eval=F}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>CSS background styling</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="s1">
+  <div class="hero-text">
+    <h1>Background Styling</h1>
+    <q>Image credit: </q>
+  </div>
+</body>
+</html>
+```
+
+### CSS
+
+```{css eval=F}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body.s0 {
+  background-color:aliceblue;
+  background-image: url(coffee-jie-wang.jpg);
+  background-position: center;  
+}
+
+body.s1 {
+  background-color:aliceblue;
+  background-image: url(coffee-jie-wang.jpg);
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat; /* repeat-y no-repeat;*/
+  background-size: cover;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffdbd1;
+}
+
+body.s2 {
+  background-color:aliceblue;
+  background-image: url(andrej-lisakov-V2OyJtFqEtY-unsplash.jpg); 
+  /* background-position: right; */
+  background-repeat:  repeat-y; /* no-repeat;*/
+}
+  
+body.s3{
+  background: 
+    url(matheus-bardemaker-wn6CTPy5E6Q-unsplash.jpg) no-repeat, /*left bottom*/                  
+    url(andrej-lisakov-V2OyJtFqEtY-unsplash.jpg) no-repeat; /* right top;*/
+}
+
+```
+:::
+

@@ -1,0 +1,85 @@
+```{r include=F}
+1 + 1
+```
+
+---
+title: "CSS Basics Hands-on"
+---
+
+## Walkthrough
+
+```{r, eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" src="https://www.youtube.com/embed/SLT2ekthvec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+)
+```
+
+By walking through an example of one html and one css, do the following:
+
+-   *Go over the questions from the Chapter test*
+
+-   Create a subfolder in the class folder.
+
+-   In the subfolder, create one html script, one css script, one img folder.
+
+-   Learn `inline`, `embedded`, and `external` style rules
+
+-   Learn the `selector syntax`: naming a selector, declaring its properties and the relevant syntax symbols
+
+-   Write `element, id, class and descendant selectors`
+
+-   Know how to `comment out` (*disable a section of source code by converting it into a comment*) html and css code
+
+-   Per the **CSS rules of precedence**:
+
+    -   A css rule with `!important` always takes precedence.
+
+    -   For the same css property:
+
+        > !important \> inline \> embedded \> external style
+
+    -   For the same property having more than one declaration in the same external style sheets, `the latest one overrides the earlier ones`.
+
+-   Know the execution order of interpreting HTML and CSS: `A web browser interprets both HTML and CSS sequentially from top to bottom`.
+
+-   Thus, *if an element matches more than one style rules in external css file, and the same CSS property has been declared more than once, the last declaration of the property will take effect in the end*.
+
+-   Look up resources including color code, element tags, css property names, css selector syntax, HTML code for special symbols and entities.
+
+[HTML Color Picker](https://htmlcolorcodes.com/color-picker/)
+
+[HTML Element Tags Reference](https://www.w3schools.com/tags/default.asp)
+
+[CSS Properties Reference](https://www.w3schools.com/cssref/)
+
+[The CSS Selector syntax](https://en.wikipedia.org/wiki/CSS)
+
+[Special Entity Characters Lookup Table](https://html.spec.whatwg.org/multipage/named-characters.html)
+
+## Book Exercise
+
+```{r, eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" src="https://www.youtube.com/embed/wLcQLDHufok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+)
+```
+
+Practice with External Style Sheets.
+
+In this exercise, you will create two external style sheet files and a web page. You will experiment with linking the web page to the external style sheets and note how the display of the page is changed.
+
+a.  Create an external style sheet (**format1.css**) to format as follows: document background color of white and document text color of `#000099`.
+
+b.  Create an external style sheet (**format2.css**) to format as follows: document background color of yellow and document text color of green.
+
+c.  Create a web page about your favorite movie that displays the movie name in an `<h1>` tag, a description of the movie in a paragraph, and an un ordered (bulleted) list of the main actors and actresses in the movie. The page should also include a hyperlink to a web site about the movie and an e-mail link to your self. This page should be associated with the **format1.css** file. Save the page as **moviecss1.html**. Be sure to test your page in more than one browser.
+
+d.  Modify the **moviecss1.html** page to be associated with `format2.css` external style sheet instead of format1.css Save the page as **moviecss2.html** and test it in a browser. Notice how different the page looks!
+
+### Extra practice
+
+e.  Add the following new selectors to **format1.css**:
+
+    1.  An ID selector
+    2.  A class selector
+    3.  A descendant selector

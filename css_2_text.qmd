@@ -1,0 +1,33 @@
+```{r include=F}
+1 + 1
+```
+
+---
+title: CSS Text Styling
+---
+
+## Text
+
+::: {.callout-tip}
+### Text Pages 295-307 Text Styling
+
+```{r out.height = "460px", out.width='600px', echo=F}
+knitr::include_graphics("file/text_ch5-css-text.pdf")
+```
+
+:::
+
+
+## Try it Yourself
+
+Study all the examples under the CSS Text group via the given link.
+
+::: {.callout-important}
+#### Try-it-Yourself CSS Text Color
+
+https://www.w3schools.com/css/css_text.asp
+
+:::
+
+
+

@@ -14,16 +14,18 @@ website:
           - index.qmd
       - section: "CSS Basics"
         contents:
-          - css.qmd
           - css_1.qmd
-          - css_2.qmd
+          - css_1_objs.qmd
+          - css_1_handson.qmd
           - yoga_2.qmd
-      - section: "Graphics Styling"
+      - section: "CSS Second"
         contents: 
-          - handson_css_graphics.qmd
-      - section: "Text Styling"
-        contents:
-          - handson_css_text.qmd
+          - css_2.qmd
+          - css_2_graphics.qmd
+          - css_2_text.qmd
+          - css_2_others.qmd
+          - css_ch5_handson.qmd
+          - yoga_3.qmd
       - section: "Reference"
         contents:
           - references.qmd 

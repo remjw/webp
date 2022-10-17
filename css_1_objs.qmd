@@ -1,0 +1,67 @@
+```{r include=F}
+1 + 1
+```
+
+---
+title: "Concepts & Objectives"
+---
+
+## Concepts
+
+How CSS Works with HTML together?
+
+-   Connection & Location
+-   CSS Style Rules
+-   CSS Property name & value
+
+CSS associates HTML `elements` with `style rules` using `selector`.
+
+> A selector is a string pattern which searches all the matching elements by their html tags and attributes.
+
+Some types of identifiers used in *naming a selector*:
+
+-   HTML `element TAG`
+-   `CLASS` attribute can be applied to more than one html elements.
+-   `ID` attribute should only be applied to one element.
+
+## Naming Convention
+
+For maximum compatibility, you must comply with the following naming rules:
+
+-   Always begin a selector name with a letter.
+-   Do not use any blank spaces.
+-   Use letters, numbers, dash and underscore.
+
+## Case-sensitivity
+
+**CLASS and ID selectors in CSS are case-sensitive.**
+
+## CSS Syntax Validator
+
+Use the following W3C's CSS validator *https://jigsaw.w3.org/css-validator/* to help you identify syntax errors.
+
+```{r echo=FALSE, include=F, eval=F}
+knitr::include_url("https://jigsaw.w3.org/css-validator/")
+```
+
+## Objectives
+
+A Web designer must master CSS technology and has an ability of reading, applying, creating and updating CSS for Web pages.
+
+-   Embed a style block inside the `<head>` element using `<style>` tag
+-   Add (ad-hoc) `inline style` within an element using `style attribute`
+-   Read and write CSS rules
+-   Use several types of selectors: `element name`, `class`, `id`, and `descendant selector`
+-   Know a web browser runs a selector as a string pattern to find all the matching HTML elements on a Page and apply the rules to the elements.
+-   Associate/link an `external CSS` script with an HTML page using `<link>` tag within the head element:
+
+```{html filename="link_to_external_css"}
+<head>
+<link rel="stylesheet" href="{path.to.css.file}">
+</link>
+</head>
+```
+
+-   Debug CSS and tune style sheets for its associated HTML (using VS Code)
+
+-   Look up resources including color code, element tags, css property names, css selector syntax, HTML code for special symbols and entities.

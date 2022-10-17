@@ -1,0 +1,61 @@
+```{r include=F}
+1 + 1
+```
+
+---
+title: List, Image, Figure, Picture
+---
+
+## Text Pages
+
+::: callout-tip
+### Text Pages
+
+```{r out.height = "460px", out.width='600px', echo=F}
+knitr::include_graphics("file/text_ch5-css-others.pdf")
+```
+:::
+
+## Try it Yourself
+
+Open each link. Study the tags.
+
+### Image Styling
+
+::: callout-note
+#### Try-it-yourself CSS Image Styling Properties
+
+https://www.w3schools.com/html/html_images.asp
+:::
+
+### HTML Image Map
+
+::: callout-note
+#### Try-it-yourself Image Map
+
+https://www.w3schools.com/html/html_images_imagemap.asp
+:::
+
+### HTML Figure & figcaption
+
+::: callout-note
+#### Try-it-yourself HTML Figure Element
+
+https://www.w3schools.com/tags/tag_figure.asp
+:::
+
+### HTML Favicon
+
+::: callout-note
+#### Try-it-yourself HTML Favicon
+
+https://www.w3schools.com/html/html_favicon.asp
+:::
+
+### HTML Picture Element
+
+::: callout-note
+#### Try-it-yourself HTML Picture Element
+
+https://www.w3schools.com/html/html_images_picture.asp
+:::
