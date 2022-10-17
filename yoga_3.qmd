@@ -1,0 +1,74 @@
+---
+title: "Yoga-3"
+---
+
+
+::: {.callout-tip}
+### Yoga-3 Incorporate images & Focus on Page Design
+
+Use Resort-3 as a template, **Pacific Trails Resort Chapter 5 folder**. Use Yoga-2 as a starting point to create Yoga-3 by incorporating the following updates: 
+
+- Display a large image on each page
+- Create a new Activities page
+:::
+
+
+## The Page Layout 
+
+```{mermaid}
+graph TB
+    a(1)-->w1; b(3)-->w1; c(10)-->w1;
+    w1-->|average|a1[4.666667];
+    d(3)-->w2; e(5)-->w2; f(7)-->w2;
+    w2-->|average|a2[5];
+    g(9)-->w3; h(6)-->w3; i(5)-->w3;
+    w3-->|average|a3[6.666667];
+    a1-->s1[average of every k numbers];a2-->s1;a3-->s1;
+    style w1 fill:#80deb2,stroke:#333,stroke-width:2px
+    style w2 fill:#80deb2,stroke:#333,stroke-width:2px
+    style w3 fill:#80deb2,stroke:#333,stroke-width:2px
+    style s1 fill:#e4c9b4,stroke:#333,stroke-width:2px  
+
+```
+
+##
+
+To start the work, watch the following video.
+
+```{r, eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" src="https://www.youtube.com/embed/iCjabFr3GR4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+)
+```
+
+
+
+
+
+## Resort-3
+
+Click **Show files button** to open the file pane.
+
+```{r, eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@Jager2021/resort-2?embed=true"></iframe>'
+)
+```
+
+
+## Requirements 
+
+Follow the instructions on pages -.
+
+
+  Upload (Yoga-2) Chapter 4 folder to your remote Web account
+
+
+**Relevant Text Pages**
+
+```{r out.height = "460px", out.width='600px', echo=F}
+knitr::include_graphics("file/text_yoga-2.pdf")
+```
+
+
+
