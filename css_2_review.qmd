@@ -1,0 +1,19 @@
+---
+title: Review Questions
+---
+
+::: callout-tip
+### Chapter 5 Review Questions
+
+```{r out.height = "460px", out.width='600px', echo=F}
+knitr::include_graphics("file/text_ch5-reviewquestion.pdf")
+```
+:::
+
+::: {.callout-tip .column-margin}
+#### Answers
+- abbbc 
+- dddbb
+:::
+
+

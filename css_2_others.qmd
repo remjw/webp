@@ -16,11 +16,19 @@ knitr::include_graphics("file/text_ch5-css-others.pdf")
 ```
 :::
 
-## Try it Yourself
+## CSS List Marker 
 
-Open each link. Study the tags.
+::: {.callout-important}
+#### Try-it-yourself CSS List Markers
 
-### Image Styling
+https://www.w3schools.com/css/css_list.asp
+:::
+
+
+
+
+
+## Image Styling
 
 ::: callout-note
 #### Try-it-yourself CSS Image Styling Properties
@@ -28,7 +36,7 @@ Open each link. Study the tags.
 https://www.w3schools.com/html/html_images.asp
 :::
 
-### HTML Image Map
+## HTML Image Map
 
 ::: callout-note
 #### Try-it-yourself Image Map
@@ -36,7 +44,7 @@ https://www.w3schools.com/html/html_images.asp
 https://www.w3schools.com/html/html_images_imagemap.asp
 :::
 
-### HTML Figure & figcaption
+## HTML figure & figcaption
 
 ::: callout-note
 #### Try-it-yourself HTML Figure Element
@@ -44,7 +52,7 @@ https://www.w3schools.com/html/html_images_imagemap.asp
 https://www.w3schools.com/tags/tag_figure.asp
 :::
 
-### HTML Favicon
+## HTML Favicon
 
 ::: callout-note
 #### Try-it-yourself HTML Favicon
@@ -52,7 +60,8 @@ https://www.w3schools.com/tags/tag_figure.asp
 https://www.w3schools.com/html/html_favicon.asp
 :::
 
-### HTML Picture Element
+
+## HTML picture Element
 
 ::: callout-note
 #### Try-it-yourself HTML Picture Element

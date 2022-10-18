@@ -1,6 +1,23 @@
 ---
-title: Objectives & Homework
+title: Objectives & Workflow
 ---
+
+
+::: {.callout-tip}
+## CSS Second Objectives
+
+Learn to configure the following components in HTML or CSS:
+
+- CSS background properties
+- HTML Image hyperlink
+- CSS Text style properties
+- Un-ordered list `<ul>` markers
+- HTML Image `<map>` element
+- HTML `<figure>` & `<figcaption>` element
+- HTML `<picture>` element
+:::
+
+
 
 ## Chapter
 
@@ -14,7 +31,7 @@ title: Objectives & Homework
 ::: {.callout-important}
 
 - A brown-filled shape represents a required submission. 
-- A green-filled shape represents the work which is NOT included in the submission part but may appear in the final exam.
+- A green-filled shape represents the work which is NOT required for submission part but will be **used as templates for questions in the final exam**.
 :::
 
 ```{mermaid}
@@ -39,6 +56,8 @@ flowchart TD
   
   complete-->|study|w[review questions]-->|do|ww>Hands-on kayakch5]-->|take|t[chapter test];
   ww-->|study|r>Resort-3]-->|submit|y[case: Yoga-3];
+  
+  
 
     style r fill:#80deb2,stroke:#333,stroke-width:2px
     style complete fill:#80deb2,stroke:#333,stroke-width:2px

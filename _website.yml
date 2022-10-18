@@ -24,6 +24,7 @@ website:
           - css_2_graphics.qmd
           - css_2_text.qmd
           - css_2_others.qmd
+          - css_2_review.qmd
           - css_ch5_handson.qmd
           - yoga_3.qmd
       - section: "Reference"

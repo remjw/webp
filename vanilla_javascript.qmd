@@ -1,0 +1,5 @@
+
+
+Vanilla JavaScript:  http://vanilla-js.com/
+
+book: JavaScript: The Definitive Guide: Master the World's Most-Used Programming Language 7th Edition 

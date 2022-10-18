@@ -51,6 +51,13 @@ https://www.w3schools.com/css/css3_backgrounds.asp
 
 ## An Example of Using Background Properties
 
+::: {.callout-important .column-margin}
+### The CSS `translate` Function
+
+To center the text in a **block element** such as `<div>`, take a look at the use of the CSS `translate` function with the `text-align`, `position`, `top`, `left` properties in the `.hero-text class`.
+
+:::
+
 ::: panel-tabset
 ### WebVeiw
 
@@ -109,7 +116,9 @@ body.s1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #ffdbd1;
+  color: #e9eff1;
+  background-color: rgba(100, 100, 200, 0.2);
+  padding: 1em;
 }
 
 body.s2 {
@@ -126,5 +135,30 @@ body.s3{
 }
 
 ```
+
+### CSS translate Function
+
+Pay attention to the `hero-text class`:
+
+```{css eval=F}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #e9eff1;
+  background-color: rgba(100, 100, 200, 0.2);
+  padding: 1em;
+}
+```
+
+The CSS `translate()` function does a re-position of an element in the horizontal and/or vertical directions. 
+
+The css property `transform` takes a function `translate` with two options, `transform: translate(-50%, -50%)`, which moves the matching HTML elements to left and top by 50%, respectively. 
+
+**The normal direction of moving is going right and going down. Use the minus sign to specify the opposite direction, left or top.**
+
+
 :::
 

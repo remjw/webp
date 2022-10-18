@@ -2,72 +2,188 @@
 title: "Yoga-3"
 ---
 
-
-::: {.callout-tip}
+::: callout-tip
 ### Yoga-3 Incorporate images & Focus on Page Design
 
-Use Resort-3 as a template, **Pacific Trails Resort Chapter 5 folder**. Use Yoga-2 as a starting point to create Yoga-3 by incorporating the following updates: 
+Use Resort-3 as a template, **Pacific Trails Resort Chapter 5 folder**.
 
-- Display a large image on each page
-- Create a new Activities page
+Use Yoga-2 as a starting point to create Yoga-3 by incorporating the following updates:
+
+-   Create a new folder for Yoga-3
+-   Update `yoga.css`
+-   Display a large image on each page
+-   Create a new *Schedule page*
 :::
 
+## Design Suggestions
 
-## The Page Layout 
+1.  The *Path of Light Yoga Studio* website uses **hierarchical organization**, which has a clearly defined home page with navigation links to major site sections. This is an appropriate hierarchy for a business.
+
+2.  Good contrast between text and background
+
+3.  The HTML elements lang attribute is used.
+
+4.  Three web design practices that could be improved: There are many potential responses. For example,
+    a. Not all the hyperlinks are working.
+    b. The pages do not display well on mobile devices.
+    c. Navigation hyperlinks are not structured in an ordered list.
+
+3.  Other ways to improve the website include: There are many potential responses. For example,
+    - Add more content: add information and photos about the yoga instructors, add more photos of the yoga studio add reviews from yoga students.
+    - Improve image quality 
+    
+
+## The Page Layout & HTML Template
+
+In **Resort-3**, a modified page layout, its HTML template and Web view are displayed in the following tabs.
+
+::: panel-tabset
+### Page Layout
 
 ```{mermaid}
-graph TB
-    a(1)-->w1; b(3)-->w1; c(10)-->w1;
-    w1-->|average|a1[4.666667];
-    d(3)-->w2; e(5)-->w2; f(7)-->w2;
-    w2-->|average|a2[5];
-    g(9)-->w3; h(6)-->w3; i(5)-->w3;
-    w3-->|average|a3[6.666667];
-    a1-->s1[average of every k numbers];a2-->s1;a3-->s1;
-    style w1 fill:#80deb2,stroke:#333,stroke-width:2px
-    style w2 fill:#80deb2,stroke:#333,stroke-width:2px
-    style w3 fill:#80deb2,stroke:#333,stroke-width:2px
-    style s1 fill:#e4c9b4,stroke:#333,stroke-width:2px  
+flowchart TD
+  subgraph wrapper
+  e2[header];e8[footer];
+    e2-->nav-->main-->e8
+  end
+  subgraph nav
+  i1[item_1]-->i2[item_2]-->i3[....]
+  end
+  subgraph main
+  e4[div w/ img]; 
+  e5[h2 heading];
+  e6[ul unordered list];
+  e7[div w/contact info.]; 
+  e4-->e5-->e6-->e7;
+  end
+  
+  style wrapper fill:#80deb2,stroke:#333,stroke-width:2px
+    style e6 fill:#80deb2,stroke:#333,stroke-width:2px
+    style nav fill:#80deb2,stroke:#333,stroke-width:2px
+    style e4  fill:#e4c9b4,stroke:#333,stroke-width:2px  
+    style e5 fill:#e4c9b4,stroke:#333,stroke-width:2px  
 
 ```
 
-##
+### HTML Template
 
-To start the work, watch the following video.
+```{html eval=F}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <h1>(header h1) Page Layout</h1>
+  </header>
+  <nav>
+    <a href="index.html">Home</a> &nbsp;
+    <a href="page1.html">Page 1</a> &nbsp;
+    <a href="page2.html">Page 2</a> &nbsp;
+    <a href="page3.html">Page 3</a> &nbsp;
+  </nav>
+
+  <main>
+    <div>
+      <img src="coffee-jie-wang.jpg" alt="Placing large image above h2" width="100%" />
+    </div>
+    <h2>(main h2) The heading of main element </h2>
+    <p><span class="resort">business name</span> [A description goes here......]</p>
+    <ul>
+      <li>unordered list item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+    </ul>
+
+    <div id="contact">
+      <span class="resort">Business Name</span><br>
+      Stree address<br>
+      City, State 95555<br><br>
+      888-555-5555<br><br>
+    </div>
+  </main>
+
+  <footer>
+    Copyright &copy; 2022 Business Name<br>
+    <a href="mailto:yourfirstname@yourlastname.com">yourfirstname@yourlastname.com</a>
+  </footer>
+
+</body>
+
+</html>
+
+```
+
+### WebView
 
 ```{r, eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
 cat(
-'<iframe width="560" height="315" src="https://www.youtube.com/embed/iCjabFr3GR4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+'<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@Jager2021/resort-3-pagelayout?embed=true"></iframe>'
 )
 ```
 
 
+:::
 
 
 
 ## Resort-3
 
-Click **Show files button** to open the file pane.
+Click **Show files button** to open the file pane. Hit **Run button** to view the pages.
 
 ```{r, eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
 cat(
-'<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@Jager2021/resort-2?embed=true"></iframe>'
+'<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@Jager2021/resort-3?embed=true"></iframe>'
 )
 ```
 
-
-## Requirements 
-
-Follow the instructions on pages -.
-
-
-  Upload (Yoga-2) Chapter 4 folder to your remote Web account
-
-
-**Relevant Text Pages**
+## Instructions & Requirements
 
 ```{r out.height = "460px", out.width='600px', echo=F}
-knitr::include_graphics("file/text_yoga-2.pdf")
+knitr::include_graphics("file/text_yoga-3.pdf")
+```
+
+Follow the instructions above to complete all the five tasks. Upload (Yoga-3) Chapter 5 folder to your remote Web directory.
+
+::: panel-tabset
+
+### Task 1
+
+Create a new folder for Yoga-3. Copy Yoga-2 files to the folder as a starting point.
+
+
+### Task 2
+
+Follow the instructor's video below the tabset for the task to update yoga.css
+
+### Task 3
+
+Update the Home page
+
+### Task 4
+
+Update the Classes page
+
+### Task 5
+
+Create the Schedule page
+
+:::
+
+
+
+To start the work, follow the following video.
+
+```{r, eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" src="https://www.youtube.com/embed/iCjabFr3GR4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+)
 ```
 
 
