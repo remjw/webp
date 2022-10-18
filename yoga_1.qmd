@@ -1,0 +1,95 @@
+---
+title: Yoga-1
+---  
+
+The code reference: Pacific Trails Resort Chapter 2 folder.
+The text reference: Chapter 2 Pages 136-
+
+Use Pacific Trails Resort as a reference.
+
+Do Yoga Studio case on your own.
+
+To find all the files for the sample case Pacific Trails Resort (starting on page 130):
+
+ 
+Download the class resource archive file (Canvas->Files):
+
+a348_archive.zip
+
+Extract the file.
+
+The fold `PacificTrailsResort` contains the files chapter-by-chapter.
+
+
+You use the given Pacific Trails Resort case as reference, and build the site on your own for another case study, starting on text page 136:
+
+Path of Light Yoga Studio Case Study
+
+
+
+Follow the recordings in order:
+
+1. Create a Remote Replica of the Resort Case:
+https://youtu.be/GIgDzeYfe2Y 
+
+
+2. How-to-do:              
+
+Learn the following by following
+https://youtu.be/SabXIgWhbpM 
+
+
+
+Create Local site:
+
+1. Create a local directory `yoga` for the Yoga Studio case
+
+2. Copy resources to the folder
+
+
+
+Create a Workspace in the Code:
+
+3. Install Visual Studio Code, and required extensions
+
+4. Create a Workspace in the Code: Add folder to wks; open explorer;File->Save wks;Quit the Code
+
+
+
+Open Workspace and resume the work:
+
+5. Navigate to the yoga folder
+
+6. Double click the wks file to open the workspace
+
+7. Continue the work
+
+Create remote replica:
+
+8. Login to winscp at iuanyware
+
+9. Upload yoga/chapter2 to your remote web directory
+
+Test the URLs:
+
+10. Open a web browser
+
+11. Open the URL of yoga/chapter2/index.html 
+
+12. Open the URL of yoga/chapter2/classes.html
+
+3. What-to-do:
+
+Follow the instructions on page 136-
+
+Submission:
+
+Create the remote replica of the two pages, index and classes, for Chapter 2 Yoga Case.
+
+Submit the URLs which open the two remote pages:
+
+https://youriuusename.pages.iu.edu/yoga/chapter2
+
+https://youriuusename.pages.iu.edu/yoga/chapter2/classes.html
+
+ 

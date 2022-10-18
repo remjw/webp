@@ -6,7 +6,8 @@ project:
 toc: true
 number-sections: true
 editor: visual
-#bibliography: references.bib
+bibliography: teachref.bib
+# csl: nature.csl
 
 metadata-files: 
   - _website.yml

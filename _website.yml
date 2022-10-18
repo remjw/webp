@@ -12,6 +12,16 @@ website:
       - section: "Preface"
         contents: 
           - index.qmd
+      - section: "Environment"
+        contents:
+          - tools.qmd
+          - webaccount.qmd
+      - section: "HTML"
+        contents:
+          - yoga_1.qmd
+      - section: "Website Project"
+        contents:
+          - website_project.qmd
       - section: "CSS Basics"
         contents:
           - css_1.qmd
@@ -27,6 +37,9 @@ website:
           - css_2_review.qmd
           - css_ch5_handson.qmd
           - yoga_3.qmd
+      - section: "Advanced"
+        contents: 
+          - vscode_css.qmd
       - section: "Reference"
         contents:
           - references.qmd 

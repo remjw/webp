@@ -1,0 +1,14 @@
+---
+title: Tools
+---
+
+Editor: 
+
+[VS Code](https://code.visualstudio.com/)
+
+Code Extensions:
+
+- html preview (george oliveira) 
+- IntelliSense for CSS class names in HTML 
+- (vscode_pdf, html to javascript string)
+

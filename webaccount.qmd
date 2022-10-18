@@ -1,0 +1,58 @@
+---
+title: Web Account
+---
+
+
+## Individual Home Page Account
+
+[IU Pages Acount](IU Pages Acount)
+
+File Transfer tool: SFTP client program, WinSCP on [iuanyware](https://iuanyware.iu.edu/)
+
+Follow the instructions to set up your Pages account and upload an index page to your remote web directory:
+
+## Account Creation & Activation
+
+The following is the process throughout the IU systems when requesting a Pages account:
+
+(1) the student requests a Pages account
+(2) the Acceptable Use Agreement is required to be accepted
+(3) an initial account is created for the user on the Pages server as 'inactive', which means the user is unable to connect via SSH/SFTP or view the website in a browser
+(4) an email is generated and sent to the user to notify them that the Terms of Service need to be signed (these are supposed to repeat after a period of time)
+(5) the students accepts the Pages Terms of Service @ https://webtech.uits.iu.edu/pages/tos
+(6) the system sets the Pages account as 'active' within two hours of the ToS being signed. This will enable the ability to log in to the account, and the website will be viewable in a browser (though show the expected error until content is uploaded)
+(7) after a year, the system will send another round of emails out to the user notifying them that they need to renew their Pages Terms of Service. If the ToS is not renewed, the Pages account will be put back into an 'inactive' state.
+
+
+::: {.callout-important}
+
+The `Pages ToS` is different from the `Acceptable Use Agreement`, which is also required when initially requesting a Pages account. Students will receive an email shortly after requesting the account notifying them that they need to sign the Terms of Service. 
+
+The status of the Terms of Service can be checked in two ways: 
+
+(1) The user can navigate to the [Pages Terms of Service webpage](https://webtech.uits.iu.edu/pages/tos) to see if an informational banner appears saying they have already signed the ToS (i.e., the website will tell *you* that your Terms of Service were signed on 08-21-2022)
+
+(2) Open [the Pages account information](https://webtech.uits.iu.edu/pages). A 'N/A' under the ToS date indicates that you have not signed the ToS.
+
+:::
+
+
+## Contact
+
+Having the Pages Account issues? Contact:
+
+Email: sct2@iu.edu
+Phone: (812) 856-7282
+
+
+## Home Page
+
+Assume that your Pages account is active. Upload an index page to your remote web directory.
+
+
+
+Check out the following recording regarding file transfer between a local directory and your remote web directory:
+
+https://youtu.be/iDfEPKI-fZ4 
+
+

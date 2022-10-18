@@ -1,0 +1,61 @@
+---
+title: Project Description
+---
+
+Purpose: To design, develop, and publish a web site using recommended design practices. Your web site will contain a home page and at least six (but no more than ten) content pages. You must publish your project to the Internet. The content pages will include at least:
+
+-   One page containing a form with at least three elements
+-   Appropriate meta tags
+-   One page utilizing tables effectively (most students will use tables on each page),
+-   One animated image,
+-   One thumbnail image,
+-   One e-mail link, and
+-   One link outside your site.
+
+Popular browsers and mobile devices must render each page. Your web site project will be evaluated on the following criteria:
+
+-   Project Milestones,
+-   Including all required web page elements,
+-   Following recommended web site design practices,
+-   Visual appeal of site, and
+-   Accomplishment of project's objectives.
+
+Project Milestones
+
+Web Site Topic Approval: The topic of your web site must be approved by your instructor. Using a word processor, prepare a one-page double-spaced written discussion of the following:
+
+1.  What is the purpose of the site?
+2.  What do you want the web site to accomplish?
+3.  Who is your intended audience? 
+1. What opportunity, problem, or issue is your site addressing? 
+1. What type of content might be included in your site? 
+1. List at least two related or similar sites found on the Web. 
+
+Your instructor must approve your topic before you may begin to work on the next phase.
+
+Planning Analysis Sheet: Using a word processor, write a Planning Analysis Sheet that includes the following headings:
+
+1. Web Site Goal 
+1. Describe the goal of your web site in one or two sentences. 
+1. What results do I want to see? 
+1. List the working title of each page on your web. 
+1. What information do I need? 
+
+List where you will obtain the content (facts, text, graphics, sounds, video) for the web pages you listed above.
+
+Site Flowchart: Using a word processor, PowerPoint, or ruler and pencil, draw a flowchart (storyboard) of your web site that shows the hierarchy of pages and relationships between the pages.
+
+Project Update Meeting 1: You should have at least three pages of your site completed by this time. If you have not done so already, your instructor will help you to publish your pages to your web site. Unless prior arrangements to meet are made, the Project Update Meetings will be held during class lab time. Bring the following items to discuss with and hand in to your instructor:
+
+1. The URL of your web site. 
+1. The HTML, CSS and media files in your website 
+1. A sketch of your page(s) that will utilize a table 
+1. Your Site Flowchart (revise as needed). 
+
+Project Update Meeting 2: You should have at least six pages of your site completed by this time. They should be published to your web site on the Internet. Unless prior arrangements to meet are made, the Project Update Meetings will be held during class lab time. Prepare the following to discuss with your instructor:
+
+1. The URL of your web site 
+1. A sketch of your form 
+1. Your Site Flowchart (revise as needed). 
+
+Publish & Discuss Project: Finish publishing your project to your web site. Be prepared to show your web site to the class, explaining the purpose behind each page / group of pages.

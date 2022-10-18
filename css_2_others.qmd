@@ -16,17 +16,13 @@ knitr::include_graphics("file/text_ch5-css-others.pdf")
 ```
 :::
 
-## CSS List Marker 
+## CSS List Marker
 
-::: {.callout-important}
+::: callout-important
 #### Try-it-yourself CSS List Markers
 
 https://www.w3schools.com/css/css_list.asp
 :::
-
-
-
-
 
 ## Image Styling
 
@@ -59,7 +55,6 @@ https://www.w3schools.com/tags/tag_figure.asp
 
 https://www.w3schools.com/html/html_favicon.asp
 :::
-
 
 ## HTML picture Element
 
