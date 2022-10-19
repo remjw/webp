@@ -29,7 +29,7 @@ format:
     toc: true
     toc-depth: 4
     code-fold: show #true
-    code-summary: "TOGGLE the Code"
+    code-summary: "code"
     code-overflow: scroll
     code-line-numbers: true
     code-copy: true #hover
