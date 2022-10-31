@@ -37,6 +37,14 @@ website:
           - css_2_review.qmd
           - css_ch5_handson.qmd
           - yoga_3.qmd
+      - section: "CSS Box Model"
+        contents: 
+          - css_3.qmd
+          - css_3_boxmodel.qmd
+          - css_3_gradients.qmd
+          - css_3_review.qmd
+          - css_3_handson.qmd
+          - yoga_4.qmd
       - section: "Advanced"
         contents: 
           - vscode_css.qmd

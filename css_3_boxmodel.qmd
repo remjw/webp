@@ -1,0 +1,289 @@
+```{r include=F}
+1 + 1
+```
+
+---
+title: CSS Box Model
+---
+
+## Reading Text
+
+::: callout-tip
+### Text Pages CSS Box Model
+
+```{r out.height = "460px", out.width='600px', echo=F}
+knitr::include_graphics("file/text_ch6-css-boxmodel.pdf")
+```
+:::
+
+## Components of Box Model
+
+**From outermost to innermost, the components of the box model are margin, border, padding and content.**
+
+![Box Model Visualized](img/css_boxmodel_properties.png)
+
+## Center Page Content
+
+To configure centered page content, use `margin-left: auto; margin-right: auto;` along with the width property. For instance, to center the content in the *HTML main element*,
+
+```{css eval=F}
+/* define a class selector, mybox to center the content in a div element.  */
+main {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto
+}
+```
+
+## Relevant CSS Properties
+
+::: panel-tabset
+### HSL & HSLA Colors
+
+-   **Hue** is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue.
+-   **Saturation** is a percentage value. 0% means a shade of gray, and 100% is the full color.
+-   **Lightness** is also a percentage value. 0% is black, and 100% is white.
+-   The **alpha** parameter is specified the opacity for a color; a number between 0.0 (fully transparent) and 1.0 (not transparent at all).
+
+::: callout-note
+#### Try-it-yourself HSL & HSLA Colors
+
+https://www.w3schools.com/html/html_colors_hsl.asp
+:::
+
+### margin
+
+Shorthand property to set values for the thickness of the margin area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. Negative values for margin properties are allowed, but there may be implementation-specific limits.
+
+margin-left, margin-top, margin-right, margin-bottom
+
+::: callout-note
+#### Try-it-yourself CSS Box-Shadow
+
+https://www.w3schools.com/css/tryit.asp?filename=trycss_margin_sides
+:::
+
+### border
+
+Shorthand property for setting border width, style, and color.
+
+Syntax: line-width \|\| line-style \|\| color
+
+::: callout-note
+#### Try-it-yourself CSS Box-Shadow
+
+https://www.w3schools.com/cssref/tryit.php?filename=trycss_border
+:::
+
+### border-style
+
+The border-style property specifies what kind of border to display.
+
+::: callout-note
+#### Try-it-yourself CSS Box-Shadow
+
+https://www.w3schools.com/css/tryit.asp?filename=trycss_border-style
+:::
+
+### border-radius
+
+Defines the radii of the outer border edge.
+
+::: callout-note
+#### Try-it-yourself CSS Box-Shadow
+
+https://www.w3schools.com/cssref/tryit.php?filename=trycss3_border-radius4
+:::
+
+```{css eval=F}
+#border1 {
+  border: 2px solid #828282;
+  border-radius: 25px;
+}
+
+#border2 {
+  border: 2px solid red;
+  border-radius: 50px 20px;
+}
+```
+
+### padding
+
+Shorthand property to set values for the thickness of the padding area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. The value may not be negative.
+
+::: callout-note
+#### Try-it-yourself CSS Box-Shadow
+
+https://www.w3schools.com/css/tryit.asp?filename=trycss_padding_intro
+:::
+
+### opacity
+
+Opacity of an element, where 1 is opaque and 0 is entirely transparent.
+
+::: callout-note
+#### Try-it-yourself CSS Box-Shadow
+
+https://www.w3schools.com/css/tryit.asp?filename=trycss_background_opacity
+:::
+
+### box-shadow
+
+```{css eval=F}
+blockquote {
+  padding: 20px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+```
+
+::: callout-note
+#### Try-it-yourself CSS Box-Shadow
+
+https://www.w3schools.com/css/css3_shadows_box.asp
+:::
+
+### text-shadow
+
+The text-shadow property adds shadow to text. The text-shadow CSS property adds shadows to text. Each shadow is described by tow or more values.
+
+The first two values are the offset-x and offset-y values. The third, optional value is the blur-radius. The color value is the shadow's color.
+
+It accepts a comma-separated list of shadows to be applied to the text. Multiple shadow effects can be chained together in one value.
+
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+::: callout-note
+#### Try-it-yourself CSS Box-Shadow
+
+https://www.w3schools.com/css/tryit.asp?filename=trycss_text-shadow7
+:::
+:::
+
+
+
+## An Example
+
+The following gives you an example of covering the properties discussed in this chapter. The CSS is embedded within HTML in the *style* element. By changing the property values and looking at the effect, you will learn the properties.
+
+::: panel-tabset
+### HTML
+
+```{html eval=F}
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+</head>
+<style>
+  body {
+    background-color: black;
+  }
+
+  main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px dotted red;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+  }
+
+  .mybox {
+    /* hsla(hue, saturation, lightness, alpha) */
+    background-color: hsla(20, 100%, 90%, 1);
+    display: block;
+    line-height: 2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 1em 1em;
+    border: 2px solid black;
+  }
+
+  .content {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(50, 100, 100, 5);
+    font-style: italic;
+    font-weight: bold;
+    font-size: small;
+    letter-spacing: 0.5em;
+  }
+
+  blockquote {
+    padding: 20px;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+      0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  }
+
+  .blur {
+    opacity: 0.4;
+  }
+
+  .roundcorner {
+    border-radius: 15px;
+  }
+
+  .boxshadow {
+    box-shadow: 10px 10px lightblue;
+  }
+
+  .textshadow {
+    text-shadow: 1px 1px 2px white, 0 0 25px blue;
+  }
+
+  .ref {
+    font-family: Verdana, sans-serif;
+    font-style: italic;
+    font-size: 0.7em;
+    border: 1px solid black;
+    border-left: 10px solid blue;
+    padding: 0.2em;
+    padding-left: 5px;
+    opacity: 0.6;
+  }
+</style>
+
+<body>
+
+  <main>
+    <section class="mybox blur boxshadow">
+      <div class="content">This is my blurry box.</div>
+    </section>
+
+    <section class="mybox roundcorner">
+      <div class="content textshadow">This is my round box.</div>
+    </section>
+
+    <section>
+      <div class="ref">Ref: https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
+      </div>
+
+      <blockquote>
+        <q>
+          You may shoot me with your words,<br />
+          You may cut me with your eyes,<br />
+          You may kill me with your hatefulness,<br />
+          But still, like air, I'll rise.
+        </q>
+        <p>&mdash; Maya Angelou</p>
+      </blockquote>
+    </section>
+  </main>
+
+</body>
+
+</html>
+```
+
+### WebView
+
+```{r, eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@Jager2021/css-boxmodel?embed=true"></iframe>'
+)
+```
+:::

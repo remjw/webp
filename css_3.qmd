@@ -1,0 +1,25 @@
+---
+title: Objectives & Workflow
+---
+
+::: callout-tip
+## CSS Box Model Objectives
+
+Learn the CSS Box Model and configure its size, margin, border and padding.
+
+Learn the CSS properties for round corners, shadow effects, opacity, color gradients, RGBA and HSLA color code.
+:::
+
+## Chapter
+
+::: callout-tip
+### Text Chapter 6
+:::
+
+## Workflow
+
+::: callout-important
+-   A brown-filled shape represents a required submission.
+-   A green-filled shape represents the work which is NOT required for submission part but will be **used as templates for questions in the final exam**.
+:::
+

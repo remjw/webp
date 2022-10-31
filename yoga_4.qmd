@@ -1,0 +1,156 @@
+---
+title: "Yoga-4"
+---
+
+::: callout-tip
+### Yoga-4
+
+Use Resort-4 as a template, **Pacific Trails Resort Chapter 5 folder**.
+
+Use Yoga-3 as a starting point to create Yoga-4 by incorporating the following updates:
+
+:::
+
+## The Page Layout & HTML Template
+
+In **Resort-4**, a modified page layout, its HTML template and Web view are displayed in the following tabs.
+
+::: panel-tabset
+### Page Layout
+
+```{mermaid}
+flowchart TD
+  e2[header]
+  nav-->e2-->wrapper
+  subgraph wrapper
+  e8[footer];
+  main-->e8
+  end
+  subgraph nav
+  i1[item_1]-->i2[item_2]-->i3[....]
+  end
+  subgraph main
+  e4[div w/ img]; 
+  e5[h2 heading];
+  e6[ul unordered list];
+  e7[div w/contact info.]; 
+  e4-->e5-->e6-->e7;
+  end
+  
+  style wrapper fill:#80deb2,stroke:#333,stroke-width:2px
+    style e6 fill:#80deb2,stroke:#333,stroke-width:2px
+    style nav fill:#80deb2,stroke:#333,stroke-width:2px
+    style e4  fill:#e4c9b4,stroke:#333,stroke-width:2px  
+    style e5 fill:#e4c9b4,stroke:#333,stroke-width:2px  
+
+```
+
+### HTML Template
+
+```{html eval=F}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="page1.html">Page 1</a></li>
+    <li><a href="page2.html">Page 2</a> </li>
+    <li><a href="page3.html">Page 3</a> </li>
+  </ul>
+  </nav>
+  <header>
+    <h1>(header h1) Page Layout</h1>
+  </header>
+  
+  <div id="wrapper">
+  <main>
+    <div>
+      <img src="coffee-jie-wang.jpg" alt="Placing large image above h2" width="100%" />
+    </div>
+    <h2>(main h2) The heading of main element </h2>
+    <p><span class="resort">business name</span> [A description goes here......]</p>
+    <ul>
+      <li>unordered list item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+    </ul>
+
+    <div id="contact">
+      <span class="resort">Business Name</span><br>
+      Stree address<br>
+      City, State 95555<br><br>
+      888-555-5555<br><br>
+    </div>
+  </main>
+
+  <footer>
+    Copyright &copy; 2022 Business Name<br>
+    <a href="mailto:yourfirstname@yourlastname.com">yourfirstname@yourlastname.com</a>
+  </footer>
+  </div>
+
+</body>
+
+</html>
+
+```
+
+### WebView
+
+```{r, eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@Jager2021/resort-4-pagelayout?embed=true"></iframe>'
+)
+```
+:::
+
+
+
+
+## Instructions & Requirements
+
+```{r out.height = "460px", out.width='600px', echo=F}
+knitr::include_graphics("file/text_yoga-4.pdf")
+```
+
+Follow the instructions above to complete all the five tasks. Upload (Yoga-4) Chapter 6 folder to your remote Web directory.
+
+::: panel-tabset
+### Task 1 New folder
+
+Create a new folder for Yoga-4. Copy the files from Yoga-3 folder to Yoga-4 folder. Find a sunrise photo.
+ 
+### Task 2 CSS file
+
+Update yoga.css. 
+
+### Task 3 Home Page
+
+Edit index.html to match the new wireframe.
+
+- Move the `nav` element above the `header` element.
+- Assign the header element to the class `hero`
+- Remove the img element
+- Configure a `wrapper div` element that contains the `main` element and `footer` element
+
+
+### Task 4 Classes Page
+
+Edit classes.html to match the new wireframe. Refer to the book instrcutions.
+
+### Task 5 Schedule Page
+
+Edit schedule.html. Refer to the book instrcutions.
+
+:::
+
+To start the work, follow the following video.

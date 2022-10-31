@@ -1,0 +1,84 @@
+---
+title: Review Questions
+---
+
+
+### Chapter 6 Review Questions 
+
+::: callout-tip
+#### Chapter 6 Review Questions
+
+```{r out.height = "460px", out.width='600px', echo=F}
+knitr::include_graphics("file/text_ch6-reviewquestion.pdf")
+```
+:::
+
+
+::: {.callout-tip .column-margin}
+#### Review Answers
+- bcbba
+- ccaba
+:::
+
+
+
+
+### Chapter 6 Test
+
+```{r}
+#| include: false
+#| eval: false
+library(jsonlite)
+library(tidyverse)
+test <- read_json("file/htmlcss_ch6-test.json")
+test <- jsonlite::fromJSON("file/htmlcss_ch6-test.json",
+                      simplifyVector=TRUE)
+#data.table::as.data.table(df)
+test <- unlist(test)
+unname(test)
+```
+
+
+```{r}
+#| include: false
+library(jsonlite)
+library(tidyverse)
+test <- jsonlite::fromJSON("file/htmlcss_ch6-test.json", flatten =TRUE)
+test<-as.data.frame(do.call(rbind, test)) #cbind
+q <- unlist(unname(test$question_text))
+a <- unlist(unname(test$answers))
+#test <- tibble(question=q, option=a)
+```
+
+```{r}
+#| echo: false
+library(DT)
+datatable(test, class = 'cell-border stripe')
+```
+
+
+
+
+
+```{r include=F,eval=F}
+#| echo: false
+#[[1]]
+text_tbl <- data.frame(
+  Items = seq(1:15),
+  Features = 
+)
+
+kbl(text_tbl) %>%
+  kable_paper(full_width = F) %>%
+  column_spec(1, bold = T, border_right = T) %>%
+  column_spec(2, width = "30em", background = "yellow")
+```
+
+```{ojs}
+//| echo: false
+//| eval: false
+ch5_test = FileAttachment("file/htmlcss_ch5-test.json").json()
+ch5_test[0].question_text
+ch5_test[0].answers
+```
+

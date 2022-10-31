@@ -1,0 +1,14 @@
+```{r include=F}
+1 + 1
+```
+
+---
+title: Hands-On & Exercises
+---
+
+## Chapter 6 Hands-On Exercise
+
+![Hands-On Exercises](img/css_ch6_handson.png)
+
+
+
