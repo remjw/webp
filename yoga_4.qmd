@@ -5,10 +5,16 @@ title: "Yoga-4"
 ::: callout-tip
 ### Yoga-4
 
-Use Resort-4 as a template, **Pacific Trails Resort Chapter 5 folder**.
+Use Resort-4 as a template, **Pacific Trails Resort Chapter 6 folder**.
 
 Use Yoga-3 as a starting point to create Yoga-4 by incorporating the following updates:
 
+:::
+
+::: callout-important
+## Viewport
+
+A viewport represents a polygonal (normally rectangular) area in computer graphics that is currently being viewed. In web browser terms, it refers to the part of the document you're viewing which is currently visible in its window (or the screen, if the document is being viewed in full screen mode). (https://developer.mozilla.org/en-US/docs/Glossary/Viewport)
 :::
 
 ## The Page Layout & HTML Template
@@ -145,12 +151,18 @@ Edit index.html to match the new wireframe.
 
 ### Task 4 Classes Page
 
-Edit classes.html to match the new wireframe. Refer to the book instrcutions.
+Edit classes.html to match the new wireframe. Refer to the book instructions.
 
 ### Task 5 Schedule Page
 
-Edit schedule.html. Refer to the book instrcutions.
+Edit schedule.html. Refer to the book instructions.
 
 :::
 
-To start the work, follow the following video.
+To initiate the work, follow the following video.
+
+```{r, eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" src="https://www.youtube.com/embed/Y-HFWNcmBDQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+)
+```

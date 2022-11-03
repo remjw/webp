@@ -9,6 +9,103 @@ title: Hands-On & Exercises
 ## Chapter 6 Hands-On Exercise
 
 ![Hands-On Exercises](img/css_ch6_handson.png)
+```{css eval=F}
+box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3)
+```
+
+
+::: panel-tabset
+
+### Page 
+
+The expected Page View from the selectors above
+
+![Web View of the Page](img/page_css_box_gradients.png)
+
+### CSS Selectors
+
+The following is the list of incomplete selectors. Complete the selectors and place them within the `style element` of the given HTML in the second tab.
+
+Preview the page to test the selectors. The expected page is displayed in the third tab.
+
+```{css eval=F}
+footer {}
+
+#notice {}
+
+.headline {}
+
+h1 {}
+
+#blurb {}
+
+body {}
+
+#content {}
+
+```
+
+### HTML 
+
+Edit the selectors within the `style element` in the following HTML. Preview the page to test the selectors. 
+
+
+```{html eval=F}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>CSS Box Model & Gradients Practice</title>
+  <!-- <link href="style.css" rel="stylesheet" type="text/css" />-->
+</head>
+
+<style>
+    /* insert custom styles here */
+</style>
+
+<body>
+    <div id="notice">This is Notice Box.</div>
+    <nav>
+        <ul>
+            <li><a href="https://google.com">Home</a></li>
+            <li><a href="https://google.com">Search</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>CSS Box Model & Gradients Practice</h1>
+    </header>
+    
+  <div id="wrapper">
+    <main id="content">
+        <div>
+            <img src="" alt="placeholder to-be-available" width="100%">
+        </div>
+        <h2 class="headline">Heading of Main Element</h2>
+        <p id="blurb">Business Name</p>
+    </main>
+
+  <footer>
+    Copyright &copy; 2022 Business Name<br>
+  </footer>
+
+</div>
+
+</body>
+</html>
+```
+
+
+:::
+
+### Walk-through
 
 
 
+```{r, eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" src="https://www.youtube.com/embed/L6eYgqg6qRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+)
+```

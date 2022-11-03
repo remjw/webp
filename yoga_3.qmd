@@ -24,14 +24,15 @@ Use Yoga-2 as a starting point to create Yoga-3 by incorporating the following u
 3.  The HTML elements lang attribute is used.
 
 4.  Three web design practices that could be improved: There are many potential responses. For example,
-    a. Not all the hyperlinks are working.
-    b. The pages do not display well on mobile devices.
-    c. Navigation hyperlinks are not structured in an ordered list.
 
-3.  Other ways to improve the website include: There are many potential responses. For example,
-    - Add more content: add information and photos about the yoga instructors, add more photos of the yoga studio add reviews from yoga students.
-    - Improve image quality 
-    
+    a.  Not all the hyperlinks are working.
+    b.  The pages do not display well on mobile devices.
+    c.  Navigation hyperlinks are not structured in an ordered list.
+
+5.  Other ways to improve the website include: There are many potential responses. For example,
+
+    -   Add more content: add information and photos about the yoga instructors, add more photos of the yoga studio add reviews from yoga students.
+    -   Improve image quality
 
 ## The Page Layout & HTML Template
 
@@ -127,11 +128,7 @@ cat(
 '<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@Jager2021/resort-3-pagelayout?embed=true"></iframe>'
 )
 ```
-
-
 :::
-
-
 
 ## Resort-3
 
@@ -152,11 +149,9 @@ knitr::include_graphics("file/text_yoga-3.pdf")
 Follow the instructions above to complete all the five tasks. Upload (Yoga-3) Chapter 5 folder to your remote Web directory.
 
 ::: panel-tabset
-
 ### Task 1
 
 Create a new folder for Yoga-3. Copy Yoga-2 files to the folder as a starting point.
-
 
 ### Task 2
 
@@ -173,10 +168,7 @@ Update the Classes page
 ### Task 5
 
 Create the Schedule page
-
 :::
-
-
 
 To start the work, follow the following video.
 
@@ -185,6 +177,3 @@ cat(
 '<iframe width="560" height="315" src="https://www.youtube.com/embed/tQPkb317EYM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 )
 ```
-
-
-
