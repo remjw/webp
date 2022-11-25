@@ -45,6 +45,9 @@ website:
           - css_3_review.qmd
           - css_3_handson.qmd
           - yoga_4.qmd
+      - section: "Responsive Design"
+        contents:
+          - img_gallery.qmd
       - section: "Advanced"
         contents: 
           - vscode_css.qmd
