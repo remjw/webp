@@ -9,15 +9,14 @@ title: Hands-On & Exercises
 ## Chapter 6 Hands-On Exercise
 
 ![Hands-On Exercises](img/css_ch6_handson.png)
+
 ```{css eval=F}
 box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3)
 ```
 
-
 ::: panel-tabset
-
-### Page 
+### Page
 
 The expected Page View from the selectors above
 
@@ -46,10 +45,52 @@ body {}
 
 ```
 
-### HTML 
+```{css echo=F,eval=F}
+footer {
+        font-family:Arial, Helvetica, sans-serif;
+        color: darkblue;
+        background-color: lightblue;
+        padding: 10px;
+        border: 1px dashed darkblue;
+    }
+#notice {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+}
+.headline {
+        border-bottom: 1px dotted lightblue;
+        text: blue;
+    }
+h1 {
+        font-size: 4em;
+        opacity: 0.5;
+        text-shadow: 1px 4px 4px gray;
+        font-family:sans-serif;
+}
+    #blurb {
+        width: 80%;
+        color: red;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 0.8em;
+        background-color: white;
+        box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);padding: 0.5em;
+    }
 
-Edit the selectors within the `style element` in the following HTML. Preview the page to test the selectors. 
+body {
+    background: linear-gradient(white, lightblue);
 
+}
+#content {
+    opacity: 0.7;
+}
+
+```
+
+### HTML
+
+Edit the selectors within the `style element` in the following HTML. Preview the page to test the selectors.
 
 ```{html eval=F}
 <!DOCTYPE html>
@@ -96,16 +137,14 @@ Edit the selectors within the `style element` in the following HTML. Preview the
 </body>
 </html>
 ```
-
-
 :::
 
+<!--
 ### Walk-through
-
-
 
 ```{r, eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
 cat(
 '<iframe width="560" height="315" src="https://www.youtube.com/embed/L6eYgqg6qRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 )
 ```
+-->
